@@ -78,7 +78,7 @@
         </body>
         <body name="hip_roll_l_link" pos="-0.056 0.12 -0.0845">
           <inertial pos="0.063086 4.1344e-05 0.0026625" quat="-0.00123128 0.713099 0.00110009 0.701061" mass="1.4872" diaginertia="0.00168112 0.001573 0.00126988" />
-          <joint name="hip_roll_l_joint" pos="0 0 0" axis="1 0 0" range="-0.523599 0.349066" actuatorfrcrange="-320 320" />
+          <joint name="hip_roll_l_joint" pos="0 0 0" axis="1 0 0" range="-0.349065850399 0.523598775598" actuatorfrcrange="-320 320" />
           <geom name="hip_roll_l_link_visual_0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.79216 0.81961 0.93333 1" mesh="hip_roll_l_link" />
           <body name="hip_yaw_l_link" pos="0.065 0 -0.0323">
             <inertial pos="4.2994e-05 0.093039 -0.088947" quat="0.665394 0.239796 -0.239921 0.664972" mass="3.4236" diaginertia="0.0144615 0.013452 0.00754151" />
