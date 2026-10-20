@@ -1,0 +1,19 @@
+"""HT-0_58 机器人资产的公共导出（目录名含 ``-``，必须用 importlib 导入）。"""
+
+from importlib import import_module
+
+_config = import_module(".ht0_58", __name__)
+
+ROBOT_HT0_58_CFG = _config.ROBOT_HT0_58_CFG
+ROBOT_HT0_58_DEFAULT_BASE_HEIGHT = _config.ROBOT_HT0_58_DEFAULT_BASE_HEIGHT
+ROBOT_HT0_58_DEFAULT_JOINT_POS = _config.ROBOT_HT0_58_DEFAULT_JOINT_POS
+ROBOT_HT0_58_JOINT_NAMES = _config.ROBOT_HT0_58_JOINT_NAMES
+HT0_58_AMP_LOADER_KWARGS = _config.HT0_58_AMP_LOADER_KWARGS
+
+__all__ = [
+    "ROBOT_HT0_58_CFG",
+    "ROBOT_HT0_58_DEFAULT_BASE_HEIGHT",
+    "ROBOT_HT0_58_DEFAULT_JOINT_POS",
+    "ROBOT_HT0_58_JOINT_NAMES",
+    "HT0_58_AMP_LOADER_KWARGS",
+]
